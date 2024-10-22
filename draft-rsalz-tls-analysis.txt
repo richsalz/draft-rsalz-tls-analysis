@@ -69,9 +69,10 @@ Table of Contents
      3.1.  Engagement with ANDG
      3.2.  ANDG Membership
      3.3.  ANDG Impact on the WG
-   4.  References
-     4.1.  Normative References
-     4.2.  Informative References
+   4.  Relationship to UFMRG
+   5.  References
+     5.1.  Normative References
+     5.2.  Informative References
    Acknowledgements
    Author's Address
 
@@ -104,7 +105,7 @@ Table of Contents
 
    TLS 1.3 benefited greatly from collaboration with many notable
    cryptographers during it's development.  Unfortunately, [RFC8446]
-   does not have an explicitly acknowledgements section.  In February of
+   does not have an explicit acknowledgements section.  In February of
    2016, the "TLS 1.3 Ready or Not" [TRON] (TRON) workshop was held, co-
    located with the Network and Distributed system Security [NDSS]
    Symposium held in San Diego, California.  The first half of the
@@ -115,7 +116,7 @@ Table of Contents
    Multiple WG consensus calls over the past 18 months or so, have
    confirmed that the working group would like to see more formal
    analysis of new drafts, to ensure that they do not weaken the
-   guarantees that are claimed an [RFC8336] and proven in the TRON
+   guarantees that are claimed in [RFC8336] and proven in the TRON
    presentations and subsequent other analyses.
 
    Anecdotally, it has been relayed to the WG that some of the
@@ -146,7 +147,7 @@ Table of Contents
 3.1.  Engagement with ANDG
 
    At various points in the lifecycle of a WG document -- adoption,
-   development, WGLC, the ANDG would be engaged.  The actual points in
+   development, WGLC -- the ANDG would be engaged.  The actual points in
    the process are left to the discretion of the WG Chairs, confirmed by
    WG rough consensus if necessary.
 
@@ -157,7 +158,8 @@ Table of Contents
 
    Note that it is not a requirement that the full ANDG participate in
    all document reviews.  To avoid confusion, the contact point SHOULD
-   identify those participating in any decision.
+   identify those participating each time a decision is conveyed to the
+   WG.
 
 3.2.  ANDG Membership
 
@@ -190,9 +192,21 @@ Table of Contents
    mentioned in a Shepherd's write-up, the Document Shepherd MAY point
    out that the ANDG suggested analysis.
 
-4.  References
+4.  Relationship to UFMRG
 
-4.1.  Normative References
+   In general, the IETF Community is also increasingly interested in
+   formal methods to verify its protocols and data structures.  The
+   Internet Research Steering Group [IRSG] (IRSG) recently created
+   Usable Formal Methods Research Group [UFMRG] (UFMRG) to look at how
+   the IETF can leverage formal methods to improve the documents it
+   generates.
+
+   This document proposes that there SHOULD be a natural collaboration,
+   albeit not a formal one, between UFMRG and ANDG.
+
+5.  References
+
+5.1.  Normative References
 
    [IESGNOTE] "One Design Teams", December 2001.
 
@@ -213,7 +227,10 @@ Table of Contents
               Procedures", BCP 25, RFC 2418, DOI 10.17487/RFC2418,
               September 1998, <https://www.rfc-editor.org/rfc/rfc2418>.
 
-4.2.  Informative References
+5.2.  Informative References
+
+   [IRSG]     "Internet Research Steering Group", n.d.,
+              <https://www.irtf.org/irsg.html>.
 
    [NDSS]     "About the Symposium", n.d.,
               <https://www.ndss-symposium.org/about>.
@@ -235,6 +252,9 @@ Table of Contents
 
    [TRON]     "TLS 1.3 Ready or Not", February 2016, <https://www.ndss-
               symposium.org/ndss2016/tron-workshop-programme/>.
+
+   [UFMRG]    "Usable Formal Methods Research Group", n.d.,
+              <https://datatracker.ietf.org/rg/ufmrg/about/>.
 
 Acknowledgements
 
