@@ -141,8 +141,8 @@ if not full agreement of all involved ANDG participants.
 
 Note that it is not a requirement that the full ANDG participate in
 all document reviews. To avoid confusion, the contact point SHOULD
-identify those participating each time a decision is
-conveyed to the WG.
+identify those participating each time the contact conveys the ANDG
+recommendations to the WG.
 
 ## ANDG Membership
 
@@ -189,11 +189,3 @@ This document proposes that there SHOULD be a natural collaboration,
 albeit not a formal one, between UFMRG and ANDG.
 
 --- back
-
-# Acknowledgements
-{:numbered="false"}
-
-This draft would have neither been necessary nor possible without
-the initial attempts of the TLS WG Chairs to create a Formal
-Analysis Triage Team (FATT) which did not fit well into the IETF
-policies and procedures.
