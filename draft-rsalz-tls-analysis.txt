@@ -73,7 +73,6 @@ Table of Contents
    5.  References
      5.1.  Normative References
      5.2.  Informative References
-   Acknowledgements
    Author's Address
 
 1.  Introduction
@@ -158,8 +157,8 @@ Table of Contents
 
    Note that it is not a requirement that the full ANDG participate in
    all document reviews.  To avoid confusion, the contact point SHOULD
-   identify those participating each time a decision is conveyed to the
-   WG.
+   identify those participating each time the contact conveys the ANDG
+   recommendations to the WG.
 
 3.2.  ANDG Membership
 
@@ -255,13 +254,6 @@ Table of Contents
 
    [UFMRG]    "Usable Formal Methods Research Group", n.d.,
               <https://datatracker.ietf.org/rg/ufmrg/about/>.
-
-Acknowledgements
-
-   This draft would have neither been necessary nor possible without the
-   initial attempts of the TLS WG Chairs to create a Formal Analysis
-   Triage Team (FATT) which did not fit well into the IETF policies and
-   procedures.
 
 Author's Address
 
