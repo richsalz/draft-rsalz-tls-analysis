@@ -45,6 +45,12 @@ informative:
   SSLKEYLOGFILE:
     title: "The SSLKEYLOGFILE Format for TLS"
     target: https://datatracker.ietf.org/doc/draft-ietf-tls-keylogfile/
+  IRSG:
+    title: "Internet Research Steering Group"
+    target: https://www.irtf.org/irsg.html
+  UFMRG:
+    title: "Usable Formal Methods Research Group"
+    target: https://datatracker.ietf.org/rg/ufmrg/about/
 
 --- abstract
 
@@ -80,7 +86,7 @@ the WG Chairs may determine that another WGLC consensus call is needed.
 
 TLS 1.3 benefited greatly from collaboration with many notable
 cryptographers during it's development. Unfortunately, {{?RFC8446}} does
-not have an explicitly acknowledgements section.
+not have an explicit acknowledgements section.
 In February of 2016,
 the "TLS 1.3 Ready or Not" {{TRON}} (TRON) workshop was held,
 co-located with the
@@ -93,7 +99,7 @@ ProVerif (({{PROVERIF}}) and classic paper proofs.
 Multiple WG consensus calls over the past 18 months or so, have confirmed
 that the working group would like to see more formal analysis
 of new drafts, to ensure that they do not weaken the guarantees
-that are claimed an {{!RFC8336}} and proven in the TRON presentations
+that are claimed in {{!RFC8336}} and proven in the TRON presentations
 and subsequent other analyses.
 
 Anecdotally, it has been relayed to the WG that some of the cryptographers
@@ -124,7 +130,7 @@ that the existing invariants still hold.
 ## Engagement with ANDG
 
 At various points in the lifecycle of a WG document -- adoption,
-development, WGLC, the ANDG would be engaged.
+development, WGLC -- the ANDG would be engaged.
 The actual points in the process are left to the discretion of the WG Chairs,
 confirmed by WG rough consensus if necessary.
 
@@ -135,7 +141,8 @@ if not full agreement of all involved ANDG participants.
 
 Note that it is not a requirement that the full ANDG participate in
 all document reviews. To avoid confusion, the contact point SHOULD
-identify those participating in any decision.
+identify those participating each time a decision is
+conveyed to the WG.
 
 ## ANDG Membership
 
@@ -168,6 +175,18 @@ or if the WG disagrees, the document proceeds through its normal course
 of develpment.
 When or if mentioned in a Shepherd's write-up, the Document Shepherd MAY
 point out that the ANDG suggested analysis.
+
+# Relationship to UFMRG
+
+In general, the IETF Community is also increasingly interested in formal
+methods to verify its protocols and data structures.
+The Internet Research Steering Group {{IRSG}} (IRSG) recently created
+Usable Formal Methods Research Group {{UFMRG}} (UFMRG) to look at how
+the IETF can leverage formal methods to improve the documents it
+generates.
+
+This document proposes that there SHOULD be a natural collaboration,
+albeit not a formal one, between UFMRG and ANDG.
 
 --- back
 
